@@ -1,0 +1,9 @@
+package com.blogs.model;
+
+
+public class Url {
+    private int id;
+    private String longUrl;
+    private String shortCode;
+    private int userId; // nullable
+}

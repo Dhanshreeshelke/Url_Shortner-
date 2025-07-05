@@ -1,0 +1,71 @@
+package com.blogs.controller;
+
+import com.blogs.service.UrlService;
+import jakarta.servlet.http.HttpSession;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.*;
+
+@Controller
+public class UrlController {
+
+    @Autowired
+    private UrlService urlService;
+
+    // Home page: anonymous form to shorten URL
+    @GetMapping("/")
+    public String home() {
+        return "index"; // index.html from templates/
+    }
+
+    // POST: Anonymous shorten request
+    @PostMapping("/shorten")
+    public String shortenUrl(@RequestParam("longUrl") String longUrl, Model model) {
+        String shortCode = urlService.shortenUrl(longUrl);
+        model.addAttribute("shortCode", shortCode);
+        return "result"; // result.html shows the shortened link
+    }
+
+    
+    // POST: Logged-in user provides custom code
+    @PostMapping("/shorten/custom")
+    public String shortenWithCustomCode(
+            @RequestParam("longUrl") String longUrl,
+            @RequestParam("customCode") String customCode,
+            HttpSession session,
+            Model model) {
+
+        Integer userId = (Integer) session.getAttribute("userId");
+        if (userId == null) {
+            model.addAttribute("error", "You must be logged in to use a custom code.");
+            return "login"; // redirect to login page
+        }
+
+        try {
+            String shortCode = urlService.shortenUrlWithCustomCode(longUrl, customCode, userId);
+            model.addAttribute("shortCode", shortCode);
+            return "result";
+        } catch (Exception e) {
+            model.addAttribute("error", e.getMessage());
+            return "error";
+        }
+    }
+
+    @GetMapping("/test-login")
+    public String dummyLogin(HttpSession session) {
+        session.setAttribute("userId", 1); // Pretend user with ID 1 is logged in
+        return "redirect:/"; // Go back to home page
+    }
+
+    // Redirect to original URL using short code
+    @GetMapping("/{shortCode}")
+    public String redirectToOriginal(@PathVariable String shortCode) {
+        String longUrl = urlService.getLongUrl(shortCode);
+        if (longUrl != null) {
+            return "redirect:" + longUrl;
+        } else {
+            return "404"; // show custom not found page
+        }
+    }
+}

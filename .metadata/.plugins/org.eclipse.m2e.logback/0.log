@@ -1,0 +1,208 @@
+2025-07-05 11:54:08,468 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is not available. Remote download required.
+2025-07-05 11:54:55,342 [Worker-0: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:spring_boot_backend_template:0.0.1-SNAPSHOT @ C:\Telosa Assignment\spring_boot_backend_template (5)\spring_boot_backend_template\pom.xml.
+2025-07-05 11:54:58,930 [Worker-0: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /spring_boot_backend_template/src/main/java
+2025-07-05 11:54:58,934 [Worker-0: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /spring_boot_backend_template/src/main/resources
+2025-07-05 11:54:58,935 [Worker-0: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /spring_boot_backend_template/src/main/resources
+2025-07-05 11:54:58,937 [Worker-0: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /spring_boot_backend_template/src/test/java
+2025-07-05 11:54:58,939 [Worker-0: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /spring_boot_backend_template/src/test/resources
+2025-07-05 11:54:59,777 [Worker-0: Importing Maven projects] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 7 sec
+2025-07-05 11:55:02,506 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-05 11:55:02,535 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-05 11:55:02,544 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Telosa Assignment\spring_boot_backend_template (5)\spring_boot_backend_template\src\test\resources
+2025-07-05 11:55:11,835 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-05 11:55:11,843 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-05 11:55:11,850 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Telosa Assignment\spring_boot_backend_template (5)\spring_boot_backend_template\src\test\resources
+2025-07-05 11:58:14,109 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-05 11:58:14,122 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-05 11:58:14,127 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Telosa Assignment\spring_boot_backend_template (5)\spring_boot_backend_template\src\test\resources
+2025-07-05 11:58:23,259 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-05 11:58:23,271 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-05 11:58:23,277 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Telosa Assignment\spring_boot_backend_template (5)\spring_boot_backend_template\src\test\resources
+2025-07-05 11:59:08,031 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-05 11:59:08,060 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-05 11:59:08,069 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Telosa Assignment\spring_boot_backend_template (5)\spring_boot_backend_template\src\test\resources
+2025-07-05 12:01:01,003 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-05 12:01:01,014 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-05 12:01:01,024 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Telosa Assignment\spring_boot_backend_template (5)\spring_boot_backend_template\src\test\resources
+2025-07-05 12:01:14,994 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-05 12:01:15,001 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-05 12:01:15,006 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Telosa Assignment\spring_boot_backend_template (5)\spring_boot_backend_template\src\test\resources
+2025-07-05 12:01:17,969 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-05 12:01:17,987 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-05 12:01:17,992 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Telosa Assignment\spring_boot_backend_template (5)\spring_boot_backend_template\src\test\resources
+2025-07-05 12:01:39,588 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-05 12:01:39,619 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-05 12:01:39,625 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Telosa Assignment\spring_boot_backend_template (5)\spring_boot_backend_template\src\test\resources
+2025-07-05 12:01:57,860 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-05 12:01:57,867 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-05 12:01:57,872 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Telosa Assignment\spring_boot_backend_template (5)\spring_boot_backend_template\src\test\resources
+2025-07-05 12:02:58,558 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-05 12:02:58,566 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-05 12:02:58,570 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Telosa Assignment\spring_boot_backend_template (5)\spring_boot_backend_template\src\test\resources
+2025-07-05 12:03:26,398 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-05 12:03:26,403 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-05 12:03:26,406 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Telosa Assignment\spring_boot_backend_template (5)\spring_boot_backend_template\src\test\resources
+2025-07-05 12:06:41,764 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-05 12:06:41,772 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-05 12:06:41,775 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Telosa Assignment\spring_boot_backend_template (5)\spring_boot_backend_template\src\test\resources
+2025-07-05 12:06:45,413 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-05 12:06:45,419 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-05 12:06:45,424 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Telosa Assignment\spring_boot_backend_template (5)\spring_boot_backend_template\src\test\resources
+2025-07-05 12:07:19,504 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-05 12:07:19,516 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-05 12:07:19,524 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Telosa Assignment\spring_boot_backend_template (5)\spring_boot_backend_template\src\test\resources
+2025-07-05 12:07:50,706 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-05 12:07:50,715 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-05 12:07:50,720 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Telosa Assignment\spring_boot_backend_template (5)\spring_boot_backend_template\src\test\resources
+2025-07-05 12:10:04,568 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-05 12:10:04,571 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-05 12:10:04,581 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Telosa Assignment\spring_boot_backend_template (5)\spring_boot_backend_template\src\test\resources
+2025-07-05 12:10:19,534 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-05 12:10:19,535 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-05 12:10:19,546 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Telosa Assignment\spring_boot_backend_template (5)\spring_boot_backend_template\src\test\resources
+2025-07-05 12:10:40,346 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-05 12:10:40,348 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-05 12:10:40,357 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Telosa Assignment\spring_boot_backend_template (5)\spring_boot_backend_template\src\test\resources
+2025-07-05 12:10:49,034 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-05 12:10:49,035 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-05 12:10:49,040 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Telosa Assignment\spring_boot_backend_template (5)\spring_boot_backend_template\src\test\resources
+2025-07-05 12:11:09,914 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-05 12:11:09,915 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-05 12:11:09,926 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Telosa Assignment\spring_boot_backend_template (5)\spring_boot_backend_template\src\test\resources
+2025-07-05 12:11:13,609 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-05 12:11:13,611 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-05 12:11:13,616 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Telosa Assignment\spring_boot_backend_template (5)\spring_boot_backend_template\src\test\resources
+2025-07-05 12:20:45,002 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-05 12:20:45,017 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-05 12:20:45,020 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Telosa Assignment\spring_boot_backend_template (5)\spring_boot_backend_template\src\test\resources
+2025-07-05 12:20:55,620 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-05 12:20:55,629 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-05 12:20:55,633 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Telosa Assignment\spring_boot_backend_template (5)\spring_boot_backend_template\src\test\resources
+2025-07-05 12:22:33,061 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-05 12:22:33,064 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-05 12:22:33,072 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Telosa Assignment\spring_boot_backend_template (5)\spring_boot_backend_template\src\test\resources
+2025-07-05 12:22:54,628 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-05 12:22:54,636 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources from src\main\resources to target\classes
+2025-07-05 12:22:54,643 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Telosa Assignment\spring_boot_backend_template (5)\spring_boot_backend_template\src\test\resources
+2025-07-05 12:23:20,812 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-05 12:23:20,814 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-05 12:23:20,816 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Telosa Assignment\spring_boot_backend_template (5)\spring_boot_backend_template\src\test\resources
+2025-07-05 12:23:48,617 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-05 12:23:48,619 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-05 12:23:48,623 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Telosa Assignment\spring_boot_backend_template (5)\spring_boot_backend_template\src\test\resources
+2025-07-05 12:30:39,345 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-05 12:30:39,355 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources from src\main\resources to target\classes
+2025-07-05 12:30:39,362 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Telosa Assignment\spring_boot_backend_template (5)\spring_boot_backend_template\src\test\resources
+2025-07-05 12:31:42,563 [Worker-11: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2025-07-05 12:31:43,284 [Worker-11: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:spring_boot_backend_template:0.0.1-SNAPSHOT @ C:\Telosa Assignment\spring_boot_backend_template (5)\spring_boot_backend_template\pom.xml.
+2025-07-05 12:31:44,361 [Worker-11: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /spring_boot_backend_template/src/main/java
+2025-07-05 12:31:44,362 [Worker-11: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /spring_boot_backend_template/src/main/resources
+2025-07-05 12:31:44,363 [Worker-11: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /spring_boot_backend_template/src/main/resources
+2025-07-05 12:31:44,363 [Worker-11: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /spring_boot_backend_template/src/test/java
+2025-07-05 12:31:44,363 [Worker-11: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /spring_boot_backend_template/src/test/resources
+2025-07-05 12:31:45,025 [Worker-11: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 1.00 sec, update config takes 0.00 sec 
+2025-07-05 12:31:45,594 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-05 12:31:45,654 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources from src\main\resources to target\classes
+2025-07-05 12:31:45,677 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Telosa Assignment\spring_boot_backend_template (5)\spring_boot_backend_template\src\test\resources
+2025-07-05 12:32:15,815 [Worker-11: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:spring_boot_backend_template:0.0.1-SNAPSHOT @ C:\Telosa Assignment\spring_boot_backend_template (5)\spring_boot_backend_template\pom.xml.
+2025-07-05 12:32:16,522 [Worker-11: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-thymeleaf/3.3.5/spring-boot-starter-thymeleaf-3.3.5.pom
+2025-07-05 12:32:16,548 [Worker-11: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-thymeleaf/3.3.5/spring-boot-starter-thymeleaf-3.3.5.pom
+2025-07-05 12:32:16,585 [Worker-11: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/thymeleaf/thymeleaf-spring6/3.1.2.RELEASE/thymeleaf-spring6-3.1.2.RELEASE.pom
+2025-07-05 12:32:16,602 [Worker-11: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/thymeleaf/thymeleaf-spring6/3.1.2.RELEASE/thymeleaf-spring6-3.1.2.RELEASE.pom
+2025-07-05 12:32:16,639 [Worker-11: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/thymeleaf/thymeleaf-lib/3.1.2.RELEASE/thymeleaf-lib-3.1.2.RELEASE.pom
+2025-07-05 12:32:16,653 [Worker-11: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/thymeleaf/thymeleaf-lib/3.1.2.RELEASE/thymeleaf-lib-3.1.2.RELEASE.pom
+2025-07-05 12:32:16,682 [Worker-11: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/thymeleaf/thymeleaf-parent/3.1.2.RELEASE/thymeleaf-parent-3.1.2.RELEASE.pom
+2025-07-05 12:32:16,711 [Worker-11: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/thymeleaf/thymeleaf-parent/3.1.2.RELEASE/thymeleaf-parent-3.1.2.RELEASE.pom
+2025-07-05 12:32:16,749 [Worker-11: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/thymeleaf/thymeleaf/3.1.2.RELEASE/thymeleaf-3.1.2.RELEASE.pom
+2025-07-05 12:32:16,761 [Worker-11: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/thymeleaf/thymeleaf/3.1.2.RELEASE/thymeleaf-3.1.2.RELEASE.pom
+2025-07-05 12:32:17,030 [Worker-11: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-thymeleaf/3.3.5/spring-boot-starter-thymeleaf-3.3.5.jar
+2025-07-05 12:32:17,041 [Worker-11: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-thymeleaf/3.3.5/spring-boot-starter-thymeleaf-3.3.5.jar
+2025-07-05 12:32:17,057 [BasicRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/thymeleaf/thymeleaf/3.1.2.RELEASE/thymeleaf-3.1.2.RELEASE.jar
+2025-07-05 12:32:17,095 [BasicRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/thymeleaf/thymeleaf-spring6/3.1.2.RELEASE/thymeleaf-spring6-3.1.2.RELEASE.jar
+2025-07-05 12:32:17,206 [BasicRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/thymeleaf/thymeleaf-spring6/3.1.2.RELEASE/thymeleaf-spring6-3.1.2.RELEASE.jar
+2025-07-05 12:32:17,301 [BasicRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/thymeleaf/thymeleaf/3.1.2.RELEASE/thymeleaf-3.1.2.RELEASE.jar
+2025-07-05 12:32:17,729 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-05 12:32:17,731 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-05 12:32:17,736 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Telosa Assignment\spring_boot_backend_template (5)\spring_boot_backend_template\src\test\resources
+2025-07-05 12:32:18,649 [Worker-11: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-thymeleaf/3.3.5/spring-boot-starter-thymeleaf-3.3.5-sources.jar
+2025-07-05 12:32:18,655 [Worker-11: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-thymeleaf/3.3.5/spring-boot-starter-thymeleaf-3.3.5-sources.jar
+2025-07-05 12:32:18,660 [Worker-11: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.boot:spring-boot-starter-thymeleaf:3.3.5
+2025-07-05 12:32:18,706 [Worker-11: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/thymeleaf/thymeleaf-spring6/3.1.2.RELEASE/thymeleaf-spring6-3.1.2.RELEASE-sources.jar
+2025-07-05 12:32:18,754 [Worker-11: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/thymeleaf/thymeleaf-spring6/3.1.2.RELEASE/thymeleaf-spring6-3.1.2.RELEASE-sources.jar
+2025-07-05 12:32:18,760 [Worker-11: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.thymeleaf:thymeleaf-spring6:3.1.2.RELEASE
+2025-07-05 12:32:18,815 [Worker-11: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/thymeleaf/thymeleaf/3.1.2.RELEASE/thymeleaf-3.1.2.RELEASE-sources.jar
+2025-07-05 12:32:19,032 [Worker-11: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/thymeleaf/thymeleaf/3.1.2.RELEASE/thymeleaf-3.1.2.RELEASE-sources.jar
+2025-07-05 12:32:19,039 [Worker-11: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.thymeleaf:thymeleaf:3.1.2.RELEASE
+2025-07-05 12:32:20,053 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-05 12:32:20,135 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources from src\main\resources to target\classes
+2025-07-05 12:32:20,155 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Telosa Assignment\spring_boot_backend_template (5)\spring_boot_backend_template\src\test\resources
+2025-07-05 12:33:13,081 [Worker-20: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2025-07-05 12:33:13,479 [Worker-20: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:spring_boot_backend_template:0.0.1-SNAPSHOT @ C:\Telosa Assignment\spring_boot_backend_template (5)\spring_boot_backend_template\pom.xml.
+2025-07-05 12:33:14,343 [Worker-20: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /spring_boot_backend_template/src/main/java
+2025-07-05 12:33:14,343 [Worker-20: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /spring_boot_backend_template/src/main/resources
+2025-07-05 12:33:14,344 [Worker-20: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /spring_boot_backend_template/src/main/resources
+2025-07-05 12:33:14,344 [Worker-20: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /spring_boot_backend_template/src/test/java
+2025-07-05 12:33:14,344 [Worker-20: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /spring_boot_backend_template/src/test/resources
+2025-07-05 12:33:14,839 [Worker-20: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 1.00 sec, update config takes 0.00 sec 
+2025-07-05 12:33:15,306 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-05 12:33:15,328 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources from src\main\resources to target\classes
+2025-07-05 12:33:15,347 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Telosa Assignment\spring_boot_backend_template (5)\spring_boot_backend_template\src\test\resources
+2025-07-05 12:35:28,450 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-05 12:35:28,466 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources from src\main\resources to target\classes
+2025-07-05 12:35:28,478 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Telosa Assignment\spring_boot_backend_template (5)\spring_boot_backend_template\src\test\resources
+2025-07-05 12:37:42,560 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-05 12:37:42,562 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-05 12:37:42,567 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Telosa Assignment\spring_boot_backend_template (5)\spring_boot_backend_template\src\test\resources
+2025-07-05 12:37:45,937 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-05 12:37:45,939 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-05 12:37:45,943 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Telosa Assignment\spring_boot_backend_template (5)\spring_boot_backend_template\src\test\resources
+2025-07-05 12:39:20,548 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-05 12:39:20,550 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-05 12:39:20,558 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Telosa Assignment\spring_boot_backend_template (5)\spring_boot_backend_template\src\test\resources
+2025-07-05 12:41:25,734 [Worker-11: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2025-07-05 12:41:26,175 [Worker-11: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:spring_boot_backend_template:0.0.1-SNAPSHOT @ C:\Telosa Assignment\spring_boot_backend_template (5)\spring_boot_backend_template\pom.xml.
+2025-07-05 12:41:26,996 [Worker-11: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /spring_boot_backend_template/src/main/java
+2025-07-05 12:41:26,996 [Worker-11: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /spring_boot_backend_template/src/main/resources
+2025-07-05 12:41:26,997 [Worker-11: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /spring_boot_backend_template/src/main/resources
+2025-07-05 12:41:26,998 [Worker-11: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /spring_boot_backend_template/src/test/java
+2025-07-05 12:41:26,999 [Worker-11: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /spring_boot_backend_template/src/test/resources
+2025-07-05 12:41:27,602 [Worker-11: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 1.00 sec, update config takes 0.00 sec 
+2025-07-05 12:41:28,115 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-05 12:41:28,139 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2025-07-05 12:41:28,161 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Telosa Assignment\spring_boot_backend_template (5)\spring_boot_backend_template\src\test\resources
+2025-07-05 12:45:46,034 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-05 12:45:46,044 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2025-07-05 12:45:46,050 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Telosa Assignment\spring_boot_backend_template (5)\spring_boot_backend_template\src\test\resources
+2025-07-05 12:52:10,972 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-05 12:52:10,982 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2025-07-05 12:52:10,987 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Telosa Assignment\spring_boot_backend_template (5)\spring_boot_backend_template\src\test\resources
+2025-07-05 12:58:31,102 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-05 12:58:31,104 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-05 12:58:31,112 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Telosa Assignment\spring_boot_backend_template (5)\spring_boot_backend_template\src\test\resources
+2025-07-05 12:58:34,239 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-05 12:58:34,242 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-05 12:58:34,248 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Telosa Assignment\spring_boot_backend_template (5)\spring_boot_backend_template\src\test\resources
+2025-07-05 12:58:54,714 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-05 12:58:54,716 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-05 12:58:54,721 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Telosa Assignment\spring_boot_backend_template (5)\spring_boot_backend_template\src\test\resources
+2025-07-05 12:58:58,363 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-05 12:58:58,366 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-05 12:58:58,371 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Telosa Assignment\spring_boot_backend_template (5)\spring_boot_backend_template\src\test\resources
+2025-07-05 13:02:53,471 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-05 13:02:53,483 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 6 resources from src\main\resources to target\classes
+2025-07-05 13:02:53,494 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Telosa Assignment\spring_boot_backend_template (5)\spring_boot_backend_template\src\test\resources
+2025-07-05 13:03:26,586 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-05 13:03:26,589 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-05 13:03:26,595 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Telosa Assignment\spring_boot_backend_template (5)\spring_boot_backend_template\src\test\resources
+2025-07-05 13:05:21,162 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-05 13:05:21,164 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-05 13:05:21,169 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Telosa Assignment\spring_boot_backend_template (5)\spring_boot_backend_template\src\test\resources
+2025-07-05 13:05:39,062 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-05 13:05:39,064 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-05 13:05:39,069 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Telosa Assignment\spring_boot_backend_template (5)\spring_boot_backend_template\src\test\resources
+2025-07-05 13:08:44,974 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-05 13:08:44,976 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-05 13:08:44,982 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Telosa Assignment\spring_boot_backend_template (5)\spring_boot_backend_template\src\test\resources
+2025-07-05 13:16:47,817 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-05 13:16:47,819 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-05 13:16:47,825 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Telosa Assignment\spring_boot_backend_template (5)\spring_boot_backend_template\src\test\resources

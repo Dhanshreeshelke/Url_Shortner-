@@ -1,0 +1,17 @@
+package com.blogs.test;
+
+
+@SpringBootTest
+public class UrlServiceTest {
+    
+    @Autowired
+    private UrlService urlService;
+
+    @Test
+    public void testShortenUrl() {
+        String longUrl = "https://example.com";
+        String code = urlService.shortenUrl(longUrl);
+        assertNotNull(code);
+        assertTrue(code.length() >= 6);
+    }
+}

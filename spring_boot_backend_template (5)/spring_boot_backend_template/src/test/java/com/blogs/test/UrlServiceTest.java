@@ -1,0 +1,23 @@
+package com.blogs.test;
+
+import org.junit.jupiter.api.Test;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.test.context.SpringBootTest;
+import static org.junit.jupiter.api.Assertions.*;
+
+import com.blogs.service.UrlService;
+
+@SpringBootTest
+public class UrlServiceTest {
+    
+    @Autowired
+    private UrlService urlService;
+
+    @Test
+    public void testShortenUrl() {
+        String longUrl = "https://example.com";
+        String code = urlService.shortenUrl(longUrl);
+        assertNotNull(code);
+        assertTrue(code.length() >= 6);
+    }
+}

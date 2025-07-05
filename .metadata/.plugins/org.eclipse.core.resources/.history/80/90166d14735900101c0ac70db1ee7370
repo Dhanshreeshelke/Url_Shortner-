@@ -1,0 +1,12 @@
+<form action="/shorten" method="post">
+	
+	<h3>Shorten with Custom Code (Login Required)</h3>
+	<form action="/shorten/custom" method="post">
+	    <input type="text" name="longUrl" placeholder="Enter long URL" required />
+	    <input type="text" name="customCode" placeholder="Your custom code (e.g., mylink123)" required />
+	    <button type="submit">Shorten with Custom Code</button>
+	</form>
+
+    <input type="url" name="longUrl" required placeholder="Paste your long URL">
+    <button type="submit">Shorten</button>
+</form>

@@ -1,0 +1,6 @@
+<form action="/shorten" method="post">
+	<a href="/test-login">🔐 Simulate Login (User ID: 1)</a>
+
+    <input type="url" name="longUrl" required placeholder="Paste your long URL">
+    <button type="submit">Shorten</button>
+</form>

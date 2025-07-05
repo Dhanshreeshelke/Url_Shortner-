@@ -1,0 +1,80 @@
+
+package com.blogs.service;
+import com.shortener.dao.UrlDao;
+import com.shortener.model.Url;
+import com.shortener.service.UrlService;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import java.security.SecureRandom;
+import java.util.Base64;
+import java.util.UUID;
+
+@Service
+public class UrlServiceImpl implements UrlService {
+
+    @Autowired
+    private UrlDao urlDao;
+
+    private static final String BASE62 = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
+    private static final int CODE_LENGTH = 6;
+    private static final SecureRandom random = new SecureRandom();
+
+    // Anonymous URL Shortening
+    @Override
+    public String shortenUrl(String longUrl) {
+        String code;
+        do {
+            code = generateRandomCode();
+        } while (urlDao.existsByShortCode(code));
+
+        Url url = new Url();
+        url.setLongUrl(longUrl);
+        url.setShortCode(code);
+        url.setUserId(0); // 0 or null for anonymous
+
+        urlDao.save(url);
+        return code;
+    }
+
+    // Custom Code Shortening (for logged-in users)
+    @Override
+    public String shortenUrlWithCustomCode(String longUrl, String customCode, int userId) throws Exception {
+        if (urlDao.existsByShortCode(customCode)) {
+            throw new Exception("Custom short code already exists.");
+        }
+
+        Url url = new Url();
+        url.setLongUrl(longUrl);
+        url.setShortCode(customCode);
+        url.setUserId(userId);
+
+        urlDao.save(url);
+        return customCode;
+    }
+
+    // Redirect
+    @Override
+    public String getLongUrl(String shortCode) {
+        Url url = urlDao.findByShortCode(shortCode);
+        return url != null ? url.getLongUrl() : null;
+    }
+
+    // Generate random Base62 short code
+    private String generateRandomCode() {
+        StringBuilder sb = new StringBuilder(CODE_LENGTH);
+        for (int i = 0; i < CODE_LENGTH; i++) {
+            int index = random.nextInt(BASE62.length());
+            sb.append(BASE62.charAt(index));
+        }
+        return sb.toString();
+    }
+
+    // (Optional) Generate UUID-based code
+    public String generateUuidCode() {
+        return UUID.randomUUID().toString().substring(0, CODE_LENGTH);
+    }
+}
+
+
+
